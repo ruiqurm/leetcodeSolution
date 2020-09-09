@@ -1,4 +1,7 @@
-Leetcode 题解
+Leetcode 题解   
+
+公式的表示方法：   
+因为markdown需要装插件才能显示公式，因此这里计划用google的服务（`![](http://chart.googleapis.com/chart?cht=tx&chl= 在此插入Latex公式)`）
 
 ## 1
 
@@ -46,7 +49,6 @@ dict[target - value] = index
 
 
 
-
 ## 5
 
 回文
@@ -63,7 +65,7 @@ $$
 f(i,i) = 1\\
 $$
 另外需要注意的是，$i$是大的方向获得的；$j$是从小的方向获得的。因此迭代的时候要注意i要逆向迭代。
-
+## 53
 ## 516
 
 最长回文子串
